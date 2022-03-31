@@ -20,3 +20,4 @@ LAN üzerinde yer alan tüm bilgisayarları bir tane IP adresi ile bağlamak iç
 DHCP (Dinamik Ana Bilgisayar Yapılandırma Protokolü):
 
 Ağda bağlı olarak bulunan cihazlara otomatik olarak IP adresi, Geçici Ağ, Ağ Maskesi ve DNS gibi adreslerin atanmasında rol oynar. DHCP, BOOTP protokolünün daha gelişmiş versiyonudur.
+abhsfcjdsjc
