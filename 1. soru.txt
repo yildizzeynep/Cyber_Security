@@ -1,0 +1,22 @@
+ARP (Adres Çözümleme Protokolü):
+
+2. Katman olan Veri Bağlantı katmanında bulunur. 
+Adres Çözümleme Protokolü nedir? Nasıl çalışır?
+Eğer bir cihazın IP adresi biliniyorsa bunun fiziksel adresini bulmak için kullanılır. MAC adresini görünce bunun IP çözümlemesini yapar.
+
+NAT (Ağ Adresi Çeviricisi):
+
+3. katman olan Network katmanında bulunur.
+Ağ Adresi Çevirici Protokolü nedir? Nasıl çalışır?
+Bilgisayarın IP adresini başka bir IP adresine çevirmek için kullanılır.
+NAT yönlendiricileri kullanılarak IP adresleri genel adreslere çevrilir. Ayrıca Sabit, Dinamik ve Aşırı Yükleme NAT olarak 3 alt başlık halinde ayrılır.
+Sabit NAT;
+IP adresi özel olan bir cihazın dışarıda kullanılabilecek genel bir IP adresine çevirme aşamasında kullanılır.
+Dinamik NAT;
+İnternete erişilmeye çalışıldığında Dinamik NAT sayesinde havuzda boş olan IP adresi hangisiyse o kullanılır.
+PAT (Port Adres Çevirimi);
+LAN üzerinde yer alan tüm bilgisayarları bir tane IP adresi ile bağlamak için kullanılır.
+
+DHCP (Dinamik Ana Bilgisayar Yapılandırma Protokolü):
+
+Ağda bağlı olarak bulunan cihazlara otomatik olarak IP adresi, Geçici Ağ, Ağ Maskesi ve DNS gibi adreslerin atanmasında rol oynar. DHCP, BOOTP protokolünün daha gelişmiş versiyonudur.
