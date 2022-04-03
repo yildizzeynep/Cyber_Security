@@ -59,7 +59,13 @@ Web tarayıcıları da bu protokol ile entegre bir biçimde çalışmaktadır.
 SSL bağlantılarının URL'leri "HTTPS" ile oluşturulur.
 
 6-MPLS VPN:
+Site to Site VPN bağlantı türlerinde kullanılır.
+VPN'ler arasında en esnek ve en uyarlanabilen çeşididir.
+ISP (internet Service Protocol) ayarlıdır. 
+Dezavantaj olarak ise kurulumunun zor olmasıdır.
+Alternetiflerine göre fiyat olarak daha pahalıdır.
 
+7-Hybrid VPN:
 
 
 
