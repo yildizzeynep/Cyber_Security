@@ -1,0 +1,38 @@
+VPN, Bulunmadığımız bir konumda olan ağ ile bağlantı kurulmasına yarayan bir araçtır.
+Bağlantı kurarken şifreleme sistemlerine sahip protokoller sayesinde şifreli bir bağlantı kurulmuş olur.			|
+																|	
+İki farklı VPN çeşidi vardır. Bunlar;												|
+Uzaktan Erişim VPN ve Siteden Siteye VPN'dir.											|
+																|
+1-Uzaktan Erişim VPN:														|
+Adından da anlaşılacağı gibi uzaktan bağlantı ile kullanılır. 									|
+Kullanıcı ile özel ağ arasındaki bağlantı internet üzerinden gerçekleşir.							|
+Uzaktan erişim tamamen güvenlidir.
+Evde uzaktan çalışanlar sıklıkla bunu kullanır.
+İnternette bölgesel olarak uygulanan kısıtlamaları aşmak için de sıklıkla kullanılır.
+
+2-Siteden Siteye VPN:
+Şirketler tarafından sıklıkla kullanılan bir yöntemdir.
+Farklı alanlarda aynı şirkete bağlı olarak yer alan ofisler tarafından kullanılır.
+Bir ofis ağının diğer ofis konumundaki ağa bağlanmasında "Siteden Siteye VPN" kullanılır.
+Yönlendiriciden yönlendiriciye iletişim şeklini temel olarak alır. Bu sbeple VPN türünde bir yönlendirici VPN istemcisi, 
+diğeri ise VPN sunucusu olarak adlandırılır.
+
+
+
+
+
+IPSec VPN: Uzaktan erişim ile çalışan VPN çeşididir. Değişik yerlerde bulunan firma gibi büyük oluşumların farklı şubelerinin birbirine bağlanarak iletişimi sağlaması için kullanılan VPN çeşididir.
+
+SSL VPN: Siteden siteye VPN olarak adlandırılır. Herkesin kullandığı VPN çeşididir.
+ 
+VPN Protokolleri ise;
+1-PPTP (Point to Point Tunelling Protocol):
+Noktadan Noktaya Tünelleme Protokolü kullanılır. Bir tünel yaratır ve veriyi ele geçirir.
+Windows için özel olarak çıkarılmıştır ancak linux ve Mac için de kullanılabilir. Bu sebeple çok yaygın bir şekilde kullanılır.
+Kullanıcı adı ve şifre ile erişim sağlanabilir.
+En düşük şifreleme sistemi olarak geçer.
+Hızlıdır ve kurulumu da kolaydır.
+Tüm bu kolaylıkların yanında dezavantajı da tamamen güvenilir olmamasıdır.
+
+2-
