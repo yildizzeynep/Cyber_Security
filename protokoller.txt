@@ -1,5 +1,5 @@
 	ARP (Adres Çözümleme Protokolü):
-2. Katman olan Veri Bağlantı katmanında bulunur. 
+3. Katman olan Veri Bağlantı katmanında bulunur. 
 Adres Çözümleme Protokolü nedir? Nasıl çalışır?
 Eğer bir cihazın IP adresi biliniyorsa bunun fiziksel adresini bulmak için kullanılır. MAC adresini görünce bunun IP çözümlemesini yapar.
 
