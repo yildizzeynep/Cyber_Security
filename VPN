@@ -59,6 +59,8 @@ Web tarayıcıları da bu protokol ile entegre bir biçimde çalışmaktadır.
 SSL bağlantılarının URL'leri "HTTPS" ile oluşturulur.
 
 6-MPLS VPN:
+Çalışma prensibi Site-to-Site tarzında uzaktan bağlantı ile çalışmaktadır. Diğer vpn türlerine göre de esnek ayarlanabilir yapısı vardır.
+Bu yüzden kurum içi vpn bağlantısı ile internet dağıtımı yapmak için kullanılabilmekte. Özellikler listelersek eğer;
 Site to Site VPN bağlantı türlerinde kullanılır.
 VPN'ler arasında en esnek ve en uyarlanabilen çeşididir.
 ISP (internet Service Protocol) ayarlıdır. 
@@ -66,6 +68,11 @@ Dezavantaj olarak ise kurulumunun zor olmasıdır.
 Alternetiflerine göre fiyat olarak daha pahalıdır.
 
 7-Hybrid VPN:
+Temelinde 2 VPN bağlantısı barındırıyor. IPSec ve MPSL VPN; Normalde IPSec VPN A konumundan internet ağına atılan istekleri şifrelerken, 
+MPSL ise A noktasından Merkez de olan MPSL VPN ine istek atıyor ve MPSL üzerinden asıl hedef siteye istek gidior ve MPSL üzerinden tekrar 
+paketler gelmekte. Hybrid VPN yapabilmek için öncelikle IPSec VPNin sahip olduğu internet ağı ile olan tünel indirgenerek bu tünel MPSL
+VPNine bağlantısı sağlanmasıyla oluşan VPN türü. Bizim gördüğümüz kadarıyla Kurumsal şirketlerde çalışanların ağını izlemek ve çalışanların
+ağlarını güvenli kılabilmek adına başvurulan sistem ve kurulması diğer VPN lere göre bir miktar zorludur.
 
 
 
