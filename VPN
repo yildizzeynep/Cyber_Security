@@ -22,7 +22,7 @@ diğeri ise VPN sunucusu olarak adlandırılır.
 
 
 
-IPSec VPN: Uzaktan erişim ile çalışan VPN çeşididir. Değişik yerlerde bulunan firma gibi büyük oluşumların farklı şubelerinin birbirine bağlanarak iletişimi sağlaması için kullanılan VPN çeşididir.
+ 
 
 SSL VPN: Siteden siteye VPN olarak adlandırılır. Herkesin kullandığı VPN çeşididir.
  
@@ -35,4 +35,48 @@ En düşük şifreleme sistemi olarak geçer.
 Hızlıdır ve kurulumu da kolaydır.
 Tüm bu kolaylıkların yanında dezavantajı da tamamen güvenilir olmamasıdır.
 
-2-
+2-Site-to-Site VPN:
+Bir işletmenin ana ofisinden diğer şubelerine ağ oluşturmak için kullanılır.
+Başka işletmeler ile de bağlantı kurarken tercih edilir.
+Çalışma mantığı olarak da PPTP gibi ilerler ve güvenlidir.
+
+3-L2TP VPN:
+Microsoft Cisco tarafından geliştirilmiştir.
+En güvenli VPN çeşididir.
+İki L2PT bağlantı noktası ve diğer bir VPN arasında tünel oluşturur. Daha sonra tüneller arası güvenli iletişime odaklanılır.
+PPTP'ye çok benzerlerdir. PPTP'nin sağlayamadığı şeyleri L2TP sağlar.
+
+4-IPSec VPN:
+Değişik yerlerde bulunan firma gibi büyük oluşumların farklı şubelerinin birbirine bağlanarak iletişimi sağlaması için kullanılan VPN çeşididir.
+Güvenlik düzeyini arttırmak için diğer VPN'ler ile entegre bir biçimde çalışır.
+Dezavantaj olarak ise kurulum aşamasında yer alan istemci yüklemelerinin çok fazla zaman alması olarak söylenebilir.
+
+5-SSL and TLS VPN:
+SSL and TLS VPN sisteminde internet kullanıcıları yalnızca istemcinin hizmet verdiği yerlere erişebilir. 
+İçerisinde kısıtlamalar bulunmaktadır.
+Bilgisayar tarayıcılarında uygulama sunucularına güvenli oturum açmasını sağlamaktadırlar.
+Web tarayıcıları da bu protokol ile entegre bir biçimde çalışmaktadır.
+SSL bağlantılarının URL'leri "HTTPS" ile oluşturulur.
+
+6-MPLS VPN:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
