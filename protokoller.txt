@@ -1,0 +1,141 @@
+	ARP (Adres Çözümleme Protokolü):
+2. Katman olan Veri Bağlantı katmanında bulunur. 
+Adres Çözümleme Protokolü nedir? Nasıl çalışır?
+Eğer bir cihazın IP adresi biliniyorsa bunun fiziksel adresini bulmak için kullanılır. MAC adresini görünce bunun IP çözümlemesini yapar.
+
+
+NAT (Ağ Adresi Çeviricisi):
+3. katman olan Network katmanında bulunur.
+Ağ Adresi Çevirici Protokolü nedir? Nasıl çalışır?
+Bilgisayarın IP adresini başka bir IP adresine çevirmek için kullanılır.
+NAT yönlendiricileri kullanılarak IP adresleri genel adreslere çevrilir. Ayrıca Sabit, Dinamik ve Aşırı Yükleme NAT olarak 3 alt başlık halinde ayrılır.
+Sabit NAT;
+IP adresi özel olan bir cihazın dışarıda kullanılabilecek genel bir IP adresine çevirme aşamasında kullanılır.
+Dinamik NAT;
+İnternete erişilmeye çalışıldığında Dinamik NAT sayesinde havuzda boş olan IP adresi hangisiyse o kullanılır.
+PAT (Port Adres Çevirimi);
+LAN üzerinde yer alan tüm bilgisayarları bir tane IP adresi ile bağlamak için kullanılır.
+
+
+DHCP (Dinamik Ana Bilgisayar Yapılandırma Protokolü): 
+7. katman olan Uygulama katmanında bulunur.
+Ağda bağlı olarak bulunan cihazlara otomatik olarak IP adresi, Geçici Ağ, Ağ Maskesi ve DNS gibi adreslerin atanmasında rol oynar. DHCP, BOOTP versiyonunun daha gelişmiş hali olan TCP/IP protokollerindendir.
+								
+								
+DNS (Alan Adı Sistemi):
+
+7. katman olan Uygulama katmanında yer alır.
+Bilgisayar dilinde olan adlandırmaları akılda tutmak zor olduğundan							
+DNS protokolü bulunmuştur. Bu protokol, isimlendirmeyi kolaylaştırarak
+alan isimleri ile adlandırılmasına yarar.
+53 numaralı port DNS'ler tarafından kullanılır.
+
+
+
+
+
+IP (İnternet Protokolü):
+
+3. katman olan Ağ katmanında bulunur.
+İnternet ağının trafiğini sağlarlarken chazlar arası veri alış-verişi sırasında kullanılan adreslere verilen isimdir.
+IP adresleri 4 sayı grubundan oluşur ve 0 ile 255 arasındaki sayılar içerisinde yer alabilir.
+Yani 0.0.0.0 ile 255.255.255.255 arasındadır.
+Çeşitli IP türleri vardır. Bunlar;
+Private IP adresi, Public IP adresi, Dynamic IP adresi ve Static IP adresi şeklinde 4 çeşitten oluşur.
+
+Private IP Adresi;
+Her cihazın kendine ait bir IP adresinin olduğu durumdur.
+Public IP Adresi;
+Genel adrestir. Yani internet tarafından yönlednirilen IP adresi türünün bulunduğu durumdur.
+Dynamic IP Adresi;
+İnternet Servis Sağlayıcısı maaliyetinin azaltılması için önemli olan bir çeşittir.
+Otomatik olarak IP adresleri değişir ve değişen IP adresi tekrar havuza düşer. Havuza düşmesinin sonucunda başka kişiler bu adresleri tekrardan kullanabilir ve bu şekilde bir döngü oluşturulur.
+Static IP Adresi;
+Kendine ait sunucusu olan yerler için gereklidir.
+Sabit bir IP adresi anlamına gelir ve hiç değişmezz.
+
+
+
+
+
+MAC (Ortam Erişim Kontrolü):
+
+2. katman olan Veri katmanında yer alır.
+MAC adresi yerel ağlarda haberleşme görevini üstlenirler ve ARP yani adres çözümleme protokolü MAC adresini IP adresine çevirir.
+MAC adresi 6 oktetten oluşur. İlk 3 oktet donanımı üreten fırmayı, son 3 kısmı ise donanımı ifade eder.
+
+
+
+
+
+
+ICMP (İnternet Kontrol Mesaj Protokolü):
+
+3. katman olan Ağ katmanında yer alır.
+ICMP, bir sorun oluştuğunda soruna çözüm bulma, sorunun ne olduğu, nasıl çözülecdeği gibi konuların yer aldığı protokol çeşididir.
+İçerisinde çok fazla kullanılan komutlardan "ping" komutunu da barındırır.
+
+
+
+
+
+SNMP (Basit Ağ Yönetim Protokolü):
+
+7. katman olan Uygulama katmanında yer alır.
+Farklı cihazların birbirleriyle iletişim kurmasına olanak sağlayan bir protokol çeşididir.
+CPU-hafıza,bellek kullanım seviyesi, sistemin çalışma süresi, cihaza ait üretimsel bilgiler ve ağ akış bilgileri gibi olayları içerisinde barındırır.
+SNMP'nin yapısını 3 alt başlık oluşturur. Bunlar;
+SNMP Yöneticisi: Bu yazılım çeşidi ile SNMP aracılığıyla elde edilen bilgiler görüntülenir.
+SNMP Ajanı: Bu yazılım bilgilere erişmek için kullanılır.
+SNMP MIB (Yönetim Bilgi Birimleri): Ağ cihazı ile ağ yöneticisi arasında iletilecek olan bilgilerin yapılarını içeren bileşendir.
+
+
+
+
+FTP (Dosya Aktarım Protokolü):
+
+7. katman olan Uygulama katmanında yer alır.
+Dosyaların aktarımında kullanılan bir protokol çeşididir.
+
+
+
+
+SSH (Güvenli Kabuk):
+
+7. katman olan Uygulama katmanında yer alır.
+Güvenli iletişim yolu gerektiği kısmınlarda kullanılır.
+Bir sunucuya bağlanmaya ve bağlanılan yerde komut çalıştırma, dosya transferi gerçekleştirme gibi olayların döndüğü bir uzak sunucu bağlantı protokolüdür.
+ 
+  
+
+								
+SMTP (Basit Mail Aktarım Protokolü):
+
+7. katman olan Uygulama katmanında çalışır.
+Mail aktarımında kullanılan protokol çeşididir. 
+
+
+
+
+
+TELNET (İletişim Ağı):
+
+7. katman olan Uygulama katmanında yer alır.
+İnternet üzerinden uzaktaki bilgisayar ile iletişim kurmak için kullanılan metin tabanlı bir protokol çeşididir.
+Genelde port 23 üzerinden çalışır.
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+										
+								
+								
+								
+								
+								
