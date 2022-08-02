@@ -1,0 +1,3 @@
+﻿Linux temel komutlarının nasıl kullanıldığı ve ne işe yaradığı ile ilgili bir dökümandır.
+
+
